@@ -45,7 +45,7 @@ ADMIN_USER_ID = 8258524753  # Your Telegram user ID
 ICON_ACCOUNTS_ID = "5341715473882955310"       # Accounts button emoji ID
 ICON_HELP_ID = "5361741454685256344"           # View Help Commands emoji ID
 ICON_OFFICIAL_CH_ID = "5282843764451195532"    # Official Channel emoji ID
-ICON_NETWORK_ID = "5845909724939166016"        # View Network emoji ID
+ICON_NETWORK_ID = "5427168083074628963"        # View Network emoji ID
 ICON_BACK_ID = "5877629862306385808"           # Back button emoji ID
 JOINED_BUTTON_EMOJI_ID = "5206607081334906820" # "I've Joined" button emoji ID
 PREV_BUTTON_EMOJI_ID = "5447389832781264371"   # Prev button emoji ID
@@ -122,10 +122,10 @@ def e(key: str, fallback: str) -> str:
 
 # ----------------- CHANNELS CONFIG -----------------
 CHANNELS = [
-    {"name": "Join Channel 1", "url": "https://t.me/notexnetwork", "chat_id": "@notexnetwork"},
-    {"name": "Join Channel 2", "url": "https://t.me/+M0v-heXAeXo2ZGZl", "chat_id": -1002848110123},
-    {"name": "Join Channel 3", "url": "https://t.me/TheNWZ", "chat_id": "@TheNWZ"},
-    {"name": "Join Channel 4", "url": "https://t.me/+9l3vZXdfwW43YWNl", "chat_id": -1002785140604},
+    {"name": "Join Channel 1", "url": "https://t.me/affux", "chat_id": "@affux"},
+    {"name": "Join Channel 2", "url": "https://t.me/chated", "chat_id": "@chated"},
+    {"name": "Join Channel 3", "url": "https://t.me/flicktools", "chat_id": "@flicktools"},
+    {"name": "Join Channel 4", "url": "https://t.me/forumingly", "chat_id": "@forumingly"},
 ]
 
 # ----------------- PRIVACY FEATURES SETUP -----------------
@@ -480,7 +480,7 @@ def build_start_keyboard():
 
     official_channel = make_button(
         "Official Channel",
-        url="https://t.me/peekgg",
+        url="https://t.me/+Al5LghBDbfxhN2Iy",
         emoji_id=ICON_OFFICIAL_CH_ID,
         emoji="📢",
         style="primary"
@@ -488,7 +488,7 @@ def build_start_keyboard():
 
     network = make_button(
         "View Network",
-        url="https://t.me/notexnetwork",
+        url="https://t.me/affux",
         emoji_id=ICON_NETWORK_ID,
         emoji="🌐",
         style="danger"
