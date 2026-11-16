@@ -508,7 +508,7 @@ def get_start_text():
         "html": (
             "<p>"
             "<tg-emoji emoji-id='5251203410396458957'>⚠️</tg-emoji> "
-            "<b>@PeekggBot</b>"
+            "<b>@NimoggBot</b>"
             "</p>"
             "<p><i>Take control of your Instagram privacy with ease.</i></p>"
             "<blockquote>"
